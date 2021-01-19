@@ -18,11 +18,11 @@ def print_match(m):
     else:
         print("매칭되지 않음")
 
-m = p.match("careless") # match: 주어진 문자열의 처음부터 일치하는지 확인(뒷부분은 다른게 있어도 노상관)
-print_match(m)
+# m = p.match("careless") # match: 주어진 문자열의 처음부터 일치하는지 확인(뒷부분은 다른게 있어도 노상관)
+# print_match(m)
 
-m1 = p.search("goodcare") # search: 주어진 문자열 중에 일치하는게 있는지 확인
-print_match(m1)
+# m1 = p.search("goodcare") # search: 주어진 문자열 중에 일치하는게 있는지 확인
+# print_match(m1)
 
 lst = p.findall("good care cafe") # findall: 일치하는 모든 것을 리스트 형태로 반환
 print(lst)
