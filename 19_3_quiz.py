@@ -7,5 +7,6 @@ url = "https://land.naver.com/complexes/104917"
 browser = webdriver.Chrome(options = options)
 browser.get(url)
 
-title = browser.find_elements_by_class_name("title")
-print(title)
+# title = browser.find_elements_by_class_name("title")
+# print(title)
+
