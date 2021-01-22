@@ -10,7 +10,7 @@ browser.get(url)
 # browser.execute_script("window.scrollTo(0,1080)") # 1080: 모니터 해상도 높이 위치로 스크롤 내리기
 # browser.execute_script("window.scrollTo(0,2080)") # 2080: 위에 보다 좀 더 내리기
 
-# 화면 가장 아래로 스크롤 내리기
+# 화면 가장 아래로 스크롤 내리기(최하단으로 스크롤 이동은 document.body.scrollHeight)
 browser.execute_script("window.scrollTo(0, document.body.scrollHeight)")
 
 import time
